@@ -2,22 +2,137 @@
     padding: 0;
     margin; 0:
 }
+.ligne{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 1em;
+}
+
 
 /* mobile*/
-@media screen and(min-width 576x){
-
+@media screen and (max-width 767px){
+    .col-1-mobile{
+        grid-column: span 1;
+    }
+    .col-2-mobile{
+        grid-column: span 2;
+    }
+    .col-3-mobile{
+        grid-column: span 3;
+    }
+    .col-4-mobile{
+        grid-column: span 4;
+    }
+    .col-5-mobile{
+        grid-column: span 5;
+    }
+    .col-6-mobile{
+        grid-column: span 6;
+    }
+    .col-7-mobile{
+        grid-column: span 7;
+    }
+    .col-8-mobile{
+        grid-column: span 8;
+    }
+    .col-9-mobile{
+        grid-column: span 0;
+    }
+    .col-10-mobile{
+        grid-column: span 10;
+    }
+    .col-11-mobile{
+        grid-column: span 11;
+    }
+    .col-12-mobile{
+        grid-column: span 12;
+    }
 }
 
-/* tblet*/
-@media screen and(min-width 1280px){
+
+/* tablet */
+@media screen and (min-width 768px){
     
+    .col-1-tablet{
+        grid-column: span 1;
+    }
+    .col-2-tablet{
+        grid-column: span 2;
+    }
+    .col-3-tablet{
+        grid-column: span 3;
+    }
+    .col-4-tablet{
+        grid-column: span 4;
+    }
+    .col-5-tablet{
+        grid-column: span 5;
+    }
+    .col-6-tablet{
+        grid-column: span 6;
+    }
+    .col-7-tablet{
+        grid-column: span 7;
+    }
+    .col-8-tablet{
+        grid-column: span 8;
+    }
+    .col-9-tablet{
+        grid-column: span 0;
+    }
+    .col-10-tablet{
+        grid-column: span 10;
+    }
+    .col-11-tablet{
+        grid-column: span 11;
+    }
+    .col-12-tablet{
+        grid-column: span 12;
+    }
 }
+
+
 
 /* desktop*/
-@media screen and(min-width 1280px){
+@media screen and (min-width 1280px){
     
+    .col-1-desktop{
+        grid-column: span 1;
+    }
+    .col-2-desktop{
+        grid-column: span 2;
+    }
+    .col-3-desktop{
+        grid-column: span 3;
+    }
+    .col-4-desktop{
+        grid-column: span 4;
+    }
+    .col-5-desktop{
+        grid-column: span 5;
+    }
+    .col-6-desktop{
+        grid-column: span 6;
+    }
+    .col-7-desktop{
+        grid-column: span 7;
+    }
+    .col-8-desktop{
+        grid-column: span 8;
+    }
+    .col-9-desktop{
+        grid-column: span 0;
+    }
+    .col-10-desktop{
+        grid-column: span 10;
+    }
+    .col-11-desktop{
+        grid-column: span 11;
+    }
+    .col-12-desktop{
+        grid-column: span 12;
+    } 
 }
-
 
 
 
