@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+ 
  /*1 la base saine */
 * {
     padding: 0;
@@ -70,7 +72,7 @@
   }
 
 
-/* mobile*/
+/* 6 mobile*/
 
 .ligne{
     display: grid;
@@ -116,7 +118,7 @@
     }
 
 
-/* tablet */
+/* 7 tablet */
 @media only screen and (min-width:768px){
     
     .col-1-tablet{
@@ -159,7 +161,7 @@
 
 
 
-/* desktop*/
+/* 8 desktop*/
 @media only screen and (min-width:1280px){
     
     .col-1-desktop{
@@ -199,5 +201,3 @@
         grid-column: span 12;
     } 
 }
-
-
