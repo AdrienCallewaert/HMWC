@@ -5,74 +5,8 @@
     padding: 0;
     margin: O;
 }
- /*2 rule de "boite" pour visualiser la construction */
-.boite{
-    background: lightblue;
-    padding: 10em;
-    box-sizing: border-box;
-    margin-bottom: 1em;
-}
- /*3 les rule de card */
-.card {
-    width: 400px;
-    margin: 0px auto;
-    background-color: white;
-    box-shadow: 0px 5px 20px #999;
-  }
-.card a {
-    color: #333; 
-    text-decoration: none;
-  }
-.card:hover .card-image img {
-    width: 160%;
-    filter: grayscale(0);
-  }
-.card-image {
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-  }
-/* 4 les rule de card image */
-.card-image img {
-    width: 150%;
 
-    /* INFO. centrage en fonction de la taille de l'image */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: grayscale(1);
-    /* INFO. Transition */
-    transition-property: filter width; 
-    transition-duration: .3s;
-    transition-timing-function: ease;
-  }
-.card-body {
-    text-align:center; 
-    padding: 15px 20px;
-    box-sizing: border-box;
-  }
-/* 5 rule de card typo */
-.card-date {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-.card-title, .card-excerpt {
-     font-family: 'Playfair Display', serif;
-  }
-  
-.card-date, .card-title {
-    text-align:center;
-    text-transform:uppercase;
-    font-weight: bold;
-  }
-  
-.card-date, .card-excerpt {
-    color: #777;
-  }
-
-
-/* 6 mobile*/
+/* 2 mobile*/
 
 .ligne{
     display: grid;
@@ -118,7 +52,7 @@
     }
 
 
-/* 7 tablet */
+/* 3 tablet */
 @media only screen and (min-width:768px){
     
     .col-1-tablet{
@@ -161,7 +95,7 @@
 
 
 
-/* 8 desktop*/
+/* 4 desktop*/
 @media only screen and (min-width:1280px){
     
     .col-1-desktop{
